@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TagLibIOS_Example' do
+  pod 'TagLibIOS', :path => '../'
+
+  target 'TagLibIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_TagLibIOS_Example {
+  umbrella header "Pods-TagLibIOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
