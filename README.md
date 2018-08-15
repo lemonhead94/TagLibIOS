@@ -21,7 +21,8 @@ files.
   
 ### Credits
 
-The Objective C Wrapper is based on [eni9889 TagLib-Objc's](https://github.com/eni9889/TagLib-ObjC/tree/master/taglib-objc) implementation.
+* The Objective C Wrapper is based on [eni9889 TagLib-Objc's](https://github.com/eni9889/TagLib-ObjC/tree/master/taglib-objc) implementation.
+* [TagLib version 1.11.1](https://github.com/taglib/taglib/releases/tag/v1.11.1) from GitHub is compiled... 
 
 ## Example
 
