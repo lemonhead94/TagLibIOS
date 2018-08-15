@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TagLibIOS'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'TagLibIOS is a wrapper for the TagLib Audio Meta-Data Library.'
 
   s.description      = <<-DESC
@@ -29,7 +29,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lemonhead94/TagLibIOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'TagLibIOS/**/**/*.{h,cpp,mm}'
+  s.module_map = 'TagLibIOS/Framework/TagLibIOS.modulemap'
+  s.public_header_files = ['TagLibIOS/Framework/TagLibIOS-umbrella.h', 'TagLibIOS/Classes/TagReader.h']
+  s.private_header_files = 'TagLibIOS/Classes/taglib/**/*.h'
+  s.source_files = ['TagLibIOS/Framework/TagLibIOS-umbrella.h', 'TagLibIOS/Classes/**/**/*.{h,cpp,mm}']
   s.library = 'c++'
   s.xcconfig = {
       'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++14',
