@@ -28,6 +28,23 @@ files.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+**Swift Example:**
+
+```swift
+let audio = TLAudio(fileAtPath: audioFilePath.path)!
+audio.title = "exampleTitle"
+audio.artist = "exampleArtist"
+audio.album = "exampleAlbum"
+audio.comment = "exampleComment"
+audio.genre = "exampleGenre"
+audio.year = 2001
+audio.track = 1
+audio.frontCoverPicture = imageData
+audio.artistPicture = imageData
+audio.save()
+```
+
+*Currently only a Flac and MPEG/MP3 wrapper are included...*
 
 ## Installation
 
@@ -38,9 +55,6 @@ To install it, simply add the following lines to your Podfile:
 use_frameworks!
 pod 'TagLibIOS'
 ```
-
-## Bug Tracker
-* Currently Flac Artworks are not set correctly
 
 ## License
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TagLibIOS'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'TagLibIOS is a wrapper for the TagLib Audio Meta-Data Library.'
 
   s.description      = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.module_map = 'TagLibIOS/Framework/TagLibIOS.modulemap'
-  s.public_header_files = ['TagLibIOS/Framework/TagLibIOS-umbrella.h', 'TagLibIOS/Classes/TagReader.h']
+  s.public_header_files = ['TagLibIOS/Framework/TagLibIOS-umbrella.h', 'TagLibIOS/Classes/iOSWrapper/*.h']
   s.private_header_files = 'TagLibIOS/Classes/taglib/**/*.h'
   s.source_files = ['TagLibIOS/Framework/TagLibIOS-umbrella.h', 'TagLibIOS/Classes/**/**/*.{h,cpp,mm}']
   s.library = 'c++'

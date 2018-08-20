@@ -46,7 +46,6 @@
 		20D63DEA94C9DBC21E3F2FB5D5296F30 /* mpcfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42320EB98F6A6DEB74C3E7C3EABC506A /* mpcfile.cpp */; };
 		219861DEF50A631A51DE9F96EB46069D /* id3v1genres.h in Headers */ = {isa = PBXBuildFile; fileRef = 738CE14CECF45857D6641764259AE98C /* id3v1genres.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2219CA67FB2232B5198BDE12A1E6946B /* tlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C5F525D533DFCA27A1BF9095219B2F /* tlist.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		222FD4220DF0768628FA860590431E2A /* TagReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 330E666647BFFCBA897E5E99CD5DD32E /* TagReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2233927E5FBF6C7708E9BCA2BBB20CEA /* trueaudioproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A323EE4F99480B0B5A816A74A4C9E2C /* trueaudioproperties.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2319FA9E924858960DAC812BD8B200DB /* apeitem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 333A538D37B022E938856E1D089C0FF0 /* apeitem.cpp */; };
 		2476B96804607DC18650C1B0EF00B015 /* unknownframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 519FE51772C006BC6198DE15477DC496 /* unknownframe.cpp */; };
@@ -176,6 +175,24 @@
 		B49C47D7B27E3F03486E3A46DFFEA740 /* tdebuglistener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2A3DC09CDE0F53D2B1DDB5C171D4E9E /* tdebuglistener.cpp */; };
 		B4EEDA7A97DED9B8CD5749C948CEB890 /* Pods-TagLibIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 336E506606C8FA33494DB73A6C539263 /* Pods-TagLibIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5190CC8EDB5522A33DDCDE58CDCA04E /* tmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 632D537A80FC443A99354A17B08527C1 /* tmap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B9E15721212B4B0900251C80 /* TLAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E15720212B4B0900251C80 /* TLAudio.h */; };
+		B9E15722212B4B0900251C80 /* TLAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E15720212B4B0900251C80 /* TLAudio.h */; };
+		B9E15723212B4B0900251C80 /* TLAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E15720212B4B0900251C80 /* TLAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E15725212B515000251C80 /* TLAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E15724212B514F00251C80 /* TLAudio.mm */; };
+		B9E15726212B515000251C80 /* TLAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E15724212B514F00251C80 /* TLAudio.mm */; };
+		B9E15727212B515000251C80 /* TLAudio.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E15724212B514F00251C80 /* TLAudio.mm */; };
+		B9E1572E212B5D9E00251C80 /* TLFlac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572A212B5D9E00251C80 /* TLFlac.mm */; };
+		B9E1572F212B5D9E00251C80 /* TLFlac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572A212B5D9E00251C80 /* TLFlac.mm */; };
+		B9E15730212B5D9E00251C80 /* TLFlac.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572A212B5D9E00251C80 /* TLFlac.mm */; };
+		B9E15731212B5D9E00251C80 /* TLMP3.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572B212B5D9E00251C80 /* TLMP3.mm */; };
+		B9E15732212B5D9E00251C80 /* TLMP3.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572B212B5D9E00251C80 /* TLMP3.mm */; };
+		B9E15733212B5D9E00251C80 /* TLMP3.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E1572B212B5D9E00251C80 /* TLMP3.mm */; };
+		B9E15734212B5D9E00251C80 /* TLFlac.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572C212B5D9E00251C80 /* TLFlac.h */; };
+		B9E15735212B5D9E00251C80 /* TLFlac.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572C212B5D9E00251C80 /* TLFlac.h */; };
+		B9E15736212B5D9E00251C80 /* TLFlac.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572C212B5D9E00251C80 /* TLFlac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E15737212B5D9E00251C80 /* TLMP3.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572D212B5D9E00251C80 /* TLMP3.h */; };
+		B9E15738212B5D9E00251C80 /* TLMP3.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572D212B5D9E00251C80 /* TLMP3.h */; };
+		B9E15739212B5D9E00251C80 /* TLMP3.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1572D212B5D9E00251C80 /* TLMP3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC8BCC86132585D9139ABDA6BDAB1AD /* uniquefileidentifierframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9AA91E800EF1A4418C6D720FABF3C13 /* uniquefileidentifierframe.cpp */; };
 		BD74CDFD2B109B8543C7C967FEB64560 /* tfilestream.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6D99E787CDE3982962D8B282EA4991 /* tfilestream.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BDF111A9BF1E836D120CC7B39D4002CC /* unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = C16A0C810388817825B403AE2F04503F /* unicode.h */; };
@@ -205,7 +222,6 @@
 		D3AA328864C175BC8BA0702C6903CB75 /* Pods-TagLibIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F34DDACC6FD049F956D7C139C74734E /* Pods-TagLibIOS_Example-dummy.m */; };
 		D5E8C32E95E46008F1AC2E6A3B3455C8 /* trueaudioproperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF4B91D8DC59F93E9253B9985C334F79 /* trueaudioproperties.cpp */; };
 		D70A225A99ADBDB4489473026EA5B7BC /* chapterframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E95E7A93E5F4A016920406DC9328AE1 /* chapterframe.cpp */; };
-		D758A977516CFDEF18E0CE00F27E1D78 /* TagReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDEA79B5DCBF4DA5A5FBAF572BA03A29 /* TagReader.mm */; };
 		D803E3B3E5C0EA289D72EAC56C0418DA /* xiphcomment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 033683CF2C5EEDA7603EAC931F7A678D /* xiphcomment.cpp */; };
 		D9BAA55C6C55D0A7EC409D1CF7CA853C /* asfproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAA91B3227343706D517518F6EDC326 /* asfproperties.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB42AC082110CF1A3FDCB2D0067FE64F /* chapterframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A058677C43970A061815BAC5B390A0 /* chapterframe.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -309,7 +325,6 @@
 		31925856E1E6E2760FC129F5E83594E8 /* infotag.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = infotag.cpp; sourceTree = "<group>"; };
 		320B264AFF319CE70A76F752B4D81E6E /* mpegfile.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = mpegfile.cpp; sourceTree = "<group>"; };
 		3269ACFEBB6F6EED7C0B1F9C62B03F5F /* taglib_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = taglib_export.h; sourceTree = "<group>"; };
-		330E666647BFFCBA897E5E99CD5DD32E /* TagReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TagReader.h; path = TagLibIOS/Classes/TagReader.h; sourceTree = "<group>"; };
 		333A538D37B022E938856E1D089C0FF0 /* apeitem.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = apeitem.cpp; sourceTree = "<group>"; };
 		336E506606C8FA33494DB73A6C539263 /* Pods-TagLibIOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagLibIOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		34C96D849DA66D73DF32F9E5D3A6503E /* vorbisfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = vorbisfile.h; sourceTree = "<group>"; };
@@ -409,7 +424,7 @@
 		A22BAEE9FDD08E82999E3340AEC84E75 /* wavfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wavfile.h; sourceTree = "<group>"; };
 		A2FF736D76160645C68412FB470C0863 /* speexfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = speexfile.h; sourceTree = "<group>"; };
 		A378C1E2B66D5721999AED0511FCF8B6 /* id3v2framefactory.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = id3v2framefactory.cpp; sourceTree = "<group>"; };
-		A379D2D338C76F0BB8E845FB199BB7EC /* TagLibIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TagLibIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A379D2D338C76F0BB8E845FB199BB7EC /* TagLibIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TagLibIOS.podspec; sourceTree = "<group>"; };
 		A40AD7AA469C52251314BE4EE355BE9B /* commentsframe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = commentsframe.h; sourceTree = "<group>"; };
 		A4DE9CC18D105BFEDE833A494AE1C6D2 /* TagLibIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TagLibIOS.modulemap; sourceTree = "<group>"; };
 		A5DD4B15B57997D8C51378244B855D85 /* id3v2header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = id3v2header.h; sourceTree = "<group>"; };
@@ -432,6 +447,12 @@
 		B80A8E04D599EFF398E7E37CD35162C7 /* infotag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = infotag.h; sourceTree = "<group>"; };
 		B8CC4EE563C1B3165A32D8C89B2AF04D /* flacmetadatablock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flacmetadatablock.h; sourceTree = "<group>"; };
 		B8FA408E1326AF9BDD35E09E6EC1448B /* asfattribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asfattribute.h; sourceTree = "<group>"; };
+		B9E15720212B4B0900251C80 /* TLAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAudio.h; sourceTree = "<group>"; };
+		B9E15724212B514F00251C80 /* TLAudio.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLAudio.mm; sourceTree = "<group>"; };
+		B9E1572A212B5D9E00251C80 /* TLFlac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLFlac.mm; sourceTree = "<group>"; };
+		B9E1572B212B5D9E00251C80 /* TLMP3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TLMP3.mm; sourceTree = "<group>"; };
+		B9E1572C212B5D9E00251C80 /* TLFlac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLFlac.h; sourceTree = "<group>"; };
+		B9E1572D212B5D9E00251C80 /* TLMP3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMP3.h; sourceTree = "<group>"; };
 		BA775FCA816171F633F221412FE7A762 /* id3v2framefactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = id3v2framefactory.h; sourceTree = "<group>"; };
 		BAA5F863AA7111655077133FAA4FABC5 /* flacpicture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flacpicture.h; sourceTree = "<group>"; };
 		BB74526E9EC36A62E93D6AD84E5539C2 /* id3v1genres.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = id3v1genres.cpp; sourceTree = "<group>"; };
@@ -506,7 +527,6 @@
 		FD70FC6A1345D6D31D5DEBC8EC85459F /* xingheader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = xingheader.h; sourceTree = "<group>"; };
 		FD711CEACF010D18A56252AF714CDF77 /* oggpageheader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = oggpageheader.h; sourceTree = "<group>"; };
 		FDDD70103770A2DE2A8A0C8DD4BA2582 /* tdebug.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = tdebug.cpp; sourceTree = "<group>"; };
-		FDEA79B5DCBF4DA5A5FBAF572BA03A29 /* TagReader.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = TagReader.mm; path = TagLibIOS/Classes/TagReader.mm; sourceTree = "<group>"; };
 		FEF1DE513B3280C66400F5E0C1A78D4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FF77565489E8B158C8F353000CF3F4E8 /* id3v2synchdata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = id3v2synchdata.cpp; sourceTree = "<group>"; };
 		FFF53E07C39FEB9CF85A796F8ADAC0BF /* TagLibIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TagLibIOS-dummy.m"; sourceTree = "<group>"; };
@@ -913,6 +933,20 @@
 			path = wavpack;
 			sourceTree = "<group>";
 		};
+		B9B47AC32125D9F80061F41D /* iOSWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B9E15720212B4B0900251C80 /* TLAudio.h */,
+				B9E15724212B514F00251C80 /* TLAudio.mm */,
+				B9E1572C212B5D9E00251C80 /* TLFlac.h */,
+				B9E1572A212B5D9E00251C80 /* TLFlac.mm */,
+				B9E1572D212B5D9E00251C80 /* TLMP3.h */,
+				B9E1572B212B5D9E00251C80 /* TLMP3.mm */,
+			);
+			name = iOSWrapper;
+			path = TagLibIOS/Classes/iOSWrapper;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1017,8 +1051,7 @@
 		E41CF36DA879893E1C18E8B325109433 /* TagLibIOS */ = {
 			isa = PBXGroup;
 			children = (
-				330E666647BFFCBA897E5E99CD5DD32E /* TagReader.h */,
-				FDEA79B5DCBF4DA5A5FBAF572BA03A29 /* TagReader.mm */,
+				B9B47AC32125D9F80061F41D /* iOSWrapper */,
 				FD722A56D90C5B2BBC2F3D4F43F20845 /* Pod */,
 				9A13966D6D64AB7A5C9892FCABC249C4 /* Support Files */,
 				94632FFFC6403192E7084946A6A65C7A /* taglib */,
@@ -1092,7 +1125,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E15722212B4B0900251C80 /* TLAudio.h in Headers */,
+				B9E15738212B5D9E00251C80 /* TLMP3.h in Headers */,
 				B4EEDA7A97DED9B8CD5749C948CEB890 /* Pods-TagLibIOS_Tests-umbrella.h in Headers */,
+				B9E15735212B5D9E00251C80 /* TLFlac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1100,7 +1136,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E15721212B4B0900251C80 /* TLAudio.h in Headers */,
+				B9E15737212B5D9E00251C80 /* TLMP3.h in Headers */,
 				312146B9F302261505DF6E3F722BF024 /* Pods-TagLibIOS_Example-umbrella.h in Headers */,
+				B9E15734212B5D9E00251C80 /* TLFlac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,7 +1147,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222FD4220DF0768628FA860590431E2A /* TagReader.h in Headers */,
+				B9E15739212B5D9E00251C80 /* TLMP3.h in Headers */,
+				B9E15736212B5D9E00251C80 /* TLFlac.h in Headers */,
+				B9E15723212B4B0900251C80 /* TLAudio.h in Headers */,
 				124A99B5B03B60416863AD1C0E5001D3 /* TagLibIOS-umbrella.h in Headers */,
 				C3A73FD2978E69227B5084F845C03927 /* aifffile.h in Headers */,
 				F92E8E48BC9332D15DDB863965458361 /* aiffproperties.h in Headers */,
@@ -1376,6 +1417,8 @@
 				1875193F838E83AEB10038AE829411A9 /* opusproperties.cpp in Sources */,
 				980EDC3AC24568BAFD870B980EB0FF38 /* ownershipframe.cpp in Sources */,
 				1F9C82966B9C7EFA4DCAE69EE2B226FF /* podcastframe.cpp in Sources */,
+				B9E15733212B5D9E00251C80 /* TLMP3.mm in Sources */,
+				B9E15730212B5D9E00251C80 /* TLFlac.mm in Sources */,
 				99DFCA07AA9ABEE6B9435EF1EE013F75 /* popularimeterframe.cpp in Sources */,
 				A58CACCD2BA64CC63299695C2CFE1E3C /* privateframe.cpp in Sources */,
 				CC9007FBCB479A70629C68BDAD4C694B /* relativevolumeframe.cpp in Sources */,
@@ -1388,7 +1431,6 @@
 				3E596224D13FFFBFFD037A4780739913 /* tableofcontentsframe.cpp in Sources */,
 				4B28C2A70DBA3C04F1B9425D4F2FF279 /* tag.cpp in Sources */,
 				13A61C1A6746251EF4F279E999EFD4B9 /* TagLibIOS-dummy.m in Sources */,
-				D758A977516CFDEF18E0CE00F27E1D78 /* TagReader.mm in Sources */,
 				30B832186FD18BFB7772BC8BC2ADB36F /* tagunion.cpp in Sources */,
 				C63E8D1301109307C0A31C514D925043 /* tagutils.cpp in Sources */,
 				9FF77362FBDC246BF333E05120F0395A /* tbytevector.cpp in Sources */,
@@ -1408,6 +1450,7 @@
 				0E7F9CFE606132DE2DB52288D1C5EBCF /* tstringlist.cpp in Sources */,
 				638B456BBF59324B69A77BF365C9DEF4 /* tzlib.cpp in Sources */,
 				BE2B101E93132F1ECDA4A723CBCB2A1F /* unicode.cpp in Sources */,
+				B9E15727212B515000251C80 /* TLAudio.mm in Sources */,
 				BAC8BCC86132585D9139ABDA6BDAB1AD /* uniquefileidentifierframe.cpp in Sources */,
 				2476B96804607DC18650C1B0EF00B015 /* unknownframe.cpp in Sources */,
 				DCA7EBAFCF064DB359F69A3E9FF914E3 /* unsynchronizedlyricsframe.cpp in Sources */,
@@ -1429,6 +1472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E15731212B5D9E00251C80 /* TLMP3.mm in Sources */,
+				B9E15725212B515000251C80 /* TLAudio.mm in Sources */,
+				B9E1572E212B5D9E00251C80 /* TLFlac.mm in Sources */,
 				D3AA328864C175BC8BA0702C6903CB75 /* Pods-TagLibIOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1437,6 +1483,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E15732212B5D9E00251C80 /* TLMP3.mm in Sources */,
+				B9E15726212B515000251C80 /* TLAudio.mm in Sources */,
+				B9E1572F212B5D9E00251C80 /* TLFlac.mm in Sources */,
 				1A8CA52FFFFCE2333889C2A9B46B9D57 /* Pods-TagLibIOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

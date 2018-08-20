@@ -16,32 +16,49 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let fileManager = FileManager.default
-        let audioFilePath = getDocumentsDirectory().appendingPathComponent("\(randomString(length: 5)).mp3")
+        let audioExtension = "mp3"
+        let audioFilePath = getDocumentsDirectory().appendingPathComponent("\(randomString(length: 5)).\(audioExtension)")
         
-        let resourcePath = URL(fileURLWithPath: Bundle.main.path(forResource: "audio", ofType: "mp3")!)
+        let resourcePath = URL(fileURLWithPath: Bundle.main.path(forResource: "audio", ofType: audioExtension)!)
         do {
             try fileManager.copyItem(at: resourcePath, to: audioFilePath)
         } catch{
             print("Error for file write")
         }
         
-        let tagReader = TagReader.init(fileAtPath: audioFilePath.path)!
-        tagReader.artist = "exampleArtist"
+        let audio = TLAudio(fileAtPath: audioFilePath.path)!
+        audio.title = "exampleTitle"
+        audio.artist = "exampleArtist"
+        audio.album = "exampleAlbum"
+        audio.comment = "exampleComment"
+        audio.genre = "exampleGenre"
+        audio.year = 2001
+        audio.track = 1
+        
         let imageDataURL = URL(fileURLWithPath: Bundle.main.path(forResource: "coverArt", ofType: "png")!)
         do {
             let imageData = try Data(contentsOf: imageDataURL)
-            // doesn't work for Flac
-            tagReader.albumArt = imageData
+            audio.frontCoverPicture = imageData
+            audio.artistPicture = imageData
         } catch {
-            
+            print("error")
         }
         
-        let status = tagReader.save()
-        print(status)
+        let status = audio.save()
+        print("File modifications saved: \(status)")
+        print("Filepath: \(audioFilePath.path)")
+        print("")
         
-        let newTagReader = TagReader.init(fileAtPath: audioFilePath.path)!
-        print(newTagReader.artist)
-        print("done!")
+        let newAudio = TLAudio(fileAtPath: audioFilePath.path)!
+        print("Title: \(newAudio.title!)")
+        print("Artist: \(newAudio.artist!)")
+        print("Album: \(newAudio.album!)")
+        print("Comment: \(newAudio.comment!)")
+        print("Genre: \(newAudio.genre!)")
+        print("Year: \(newAudio.year!)")
+        print("Track: \(newAudio.track!)")
+        print("FrontCover Bytes: \(newAudio.frontCoverPicture!)")
+
     }
     
     override func didReceiveMemoryWarning() {

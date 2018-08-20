@@ -14,6 +14,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		646D20C24060034626BA893A /* Pods_TagLibIOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35F25199C5EB75EE2152BD6 /* Pods_TagLibIOS_Example.framework */; };
+		B9E1570421277D8C00251C80 /* audio.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9E1570321277D8C00251C80 /* audio.flac */; };
+		B9E1570621279CB100251C80 /* coverArt.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E1570521279CB100251C80 /* coverArt.png */; };
+		B9E1573B212B5DDB00251C80 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9E1573A212B5DDA00251C80 /* audio.mp3 */; };
 		DDDC7D67FCC5078344F83954 /* Pods_TagLibIOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8905E79E2F2424F70F95A7 /* Pods_TagLibIOS_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +43,13 @@
 		607FACE51AFB9204008FA782 /* TagLibIOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagLibIOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A2F15ACD35F215E29E18E04A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A2F15ACD35F215E29E18E04A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B35F25199C5EB75EE2152BD6 /* Pods_TagLibIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagLibIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBC04D0D4759894BE307FEDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E9EE85C05D2C83FBE851A933 /* TagLibIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TagLibIOS.podspec; path = ../TagLibIOS.podspec; sourceTree = "<group>"; };
+		B9E1570321277D8C00251C80 /* audio.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.flac; sourceTree = "<group>"; };
+		B9E1570521279CB100251C80 /* coverArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coverArt.png; sourceTree = "<group>"; };
+		B9E1573A212B5DDA00251C80 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		CBC04D0D4759894BE307FEDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9EE85C05D2C83FBE851A933 /* TagLibIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TagLibIOS.podspec; path = ../TagLibIOS.podspec; sourceTree = "<group>"; };
 		EEBD29769CF136F648615E9F /* Pods-TagLibIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagLibIOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagLibIOS_Example/Pods-TagLibIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F114B30927926EF22E8F86BD /* Pods-TagLibIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagLibIOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagLibIOS_Tests/Pods-TagLibIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F654A2D313BA273C542FCBE4 /* Pods-TagLibIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagLibIOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagLibIOS_Tests/Pods-TagLibIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 		607FACD21AFB9204008FA782 /* Example for TagLibIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B9E157072128272800251C80 /* files */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +153,16 @@
 				4B8905E79E2F2424F70F95A7 /* Pods_TagLibIOS_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E157072128272800251C80 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				B9E1573A212B5DDA00251C80 /* audio.mp3 */,
+				B9E1570521279CB100251C80 /* coverArt.png */,
+				B9E1570321277D8C00251C80 /* audio.flac */,
+			);
+			name = files;
 			sourceTree = "<group>";
 		};
 		C34D201E5B82615E298FD8C8 /* Pods */ = {
@@ -245,6 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E1570621279CB100251C80 /* coverArt.png in Resources */,
+				B9E1573B212B5DDB00251C80 /* audio.mp3 in Resources */,
+				B9E1570421277D8C00251C80 /* audio.flac in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

@@ -10,8 +10,7 @@
 #endif
 #endif
 
-
-#import "TagReader.h"
+#import "TLAudio.h"
 
 FOUNDATION_EXPORT double TagLibIOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char TagLibIOSVersionString[];
