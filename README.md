@@ -53,7 +53,9 @@ To install it, simply add the following lines to your Podfile:
 
 ```ruby
 use_frameworks!
-pod 'TagLibIOS'
+target 'MyApp' do
+  pod 'TagLibIOS'
+end
 ```
 
 ## License
